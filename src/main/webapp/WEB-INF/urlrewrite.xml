@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.2//EN" "http://tuckey.org/res/dtds/urlrewrite3.2.dtd">
+<urlrewrite>
+
+    <rule>
+        <from>^/(.*)$</from>
+        <to>/web/$1</to>
+    </rule>
+
+    <rule>
+        <from>/(.*)/img/(.*)$</from>
+        <to>/img/$2</to>
+    </rule>
+    <rule>
+        <from>/(.*)/swf/(.*)$</from>
+        <to>/swf/$2</to>
+    </rule>
+    <rule>
+        <from>/(.*)/image/(.*)$</from>
+        <to>/image/$3</to>
+    </rule>
+    <rule>
+        <from>/(.*)/js/(.*)$</from>
+        <to>/js/$2</to>
+    </rule>
+    <rule>
+        <from>/(.*)/css/(.*)$</from>
+        <to>/css/$2</to>
+    </rule>
+
+
+</urlrewrite>
